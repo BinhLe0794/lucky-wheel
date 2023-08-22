@@ -10,7 +10,7 @@
   width: 500px; /*Change this when change size*/
   height: 500px; /*Change this when change size*/
   border-radius: 50%;
-  border: 16px solid #e44025;
+  border: 16px solid #007518;
   box-shadow: 0 2px 3px #333, 0 0 2px #000;
 }
 
@@ -42,7 +42,7 @@
   height: inherit;
   z-index: 2;
 }
-
+/* title item */
 .hc-luckywheel-item {
   position: absolute;
   left: 0;
@@ -70,8 +70,9 @@
   position: relative;
   top: -20px;
   left: 0px;
-  width: 100px; /*Change this when change size*/
-  height: 100px;
+  width: 115px;
+  /*Change this when change size*/
+  height: 115px;
 } /*Change this when change size*/
 
 .hc-luckywheel-btn {
@@ -120,5 +121,10 @@
 body{ margin:0; padding:0; height:100vh; width:100%; }
 
 .bg {
-  background-image: url('../images/bg.png');
+  background-image : url('../images/bgken.jpg');
+  background-size  : contain;
+  object-fit       : fill;
+  background-repeat: no-repeat;
+  width            : 100%;
+  height           : 100%;
 }
